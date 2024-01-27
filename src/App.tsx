@@ -1,4 +1,5 @@
 import { AreaCuadrado } from "./typescript/AreaCuadrado";
+import { ArregloObjetos } from "./typescript/ArregloObjetos";
 import { DivideArreglo } from "./typescript/DivideArreglo";
 import { SumaArreglo } from "./typescript/SumaArreglo";
 
@@ -10,7 +11,8 @@ const App = () => {
       <hr />
       {/*<AreaCuadrado/>*/}
       {/*<SumaArreglo/>*/}
-      <DivideArreglo/>
+      {/*<DivideArreglo/>*/}
+      <ArregloObjetos/>
     </div>
   )
 }
