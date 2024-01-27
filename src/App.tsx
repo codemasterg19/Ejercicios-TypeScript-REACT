@@ -1,4 +1,5 @@
 import { AreaCuadrado } from "./typescript/AreaCuadrado";
+import { SumaArreglo } from "./typescript/SumaArreglo";
 
 
 const App = () => {
@@ -6,7 +7,8 @@ const App = () => {
     <div className="mt-2">
       <h1>Ejercicios TypeScript - React</h1>
       <hr />
-      <AreaCuadrado/>
+      {/*<AreaCuadrado/>*/}
+      <SumaArreglo/>
     </div>
   )
 }
