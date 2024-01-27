@@ -1,4 +1,5 @@
 import { AreaCuadrado } from "./typescript/AreaCuadrado";
+import { DivideArreglo } from "./typescript/DivideArreglo";
 import { SumaArreglo } from "./typescript/SumaArreglo";
 
 
@@ -8,7 +9,8 @@ const App = () => {
       <h1>Ejercicios TypeScript - React</h1>
       <hr />
       {/*<AreaCuadrado/>*/}
-      <SumaArreglo/>
+      {/*<SumaArreglo/>*/}
+      <DivideArreglo/>
     </div>
   )
 }
