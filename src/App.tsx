@@ -1,10 +1,12 @@
+import { AreaCuadrado } from "./typescript/AreaCuadrado";
 
 
-export const App = () => {
+const App = () => {
   return (
-    <div>
+    <div className="mt-2">
       <h1>Ejercicios TypeScript - React</h1>
-      
+      <hr />
+      <AreaCuadrado/>
     </div>
   )
 }
